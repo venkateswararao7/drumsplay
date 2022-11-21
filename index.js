@@ -10,8 +10,9 @@ document.querySelectorAll("button")[i].addEventListener("click",function()
 }
 
 document.addEventListener("keypress",function(event){
-    makeSound(event.key);
-    makeAnimation(event.key);
+    var letter =event.key.toLowerCase();
+    makeSound(letter);
+    makeAnimation(letter);
 })
 
 function makeSound(letter)
