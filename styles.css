@@ -84,3 +84,16 @@ h1 {
   margin: 10px;
   background-color: white;
 }
+
+@media (max-width:768px){
+  body{
+    text-align: center;
+  }
+  .set{
+    margin: 10% auto;
+  }
+  .drum {
+    text-align: center;
+    
+  }
+}
