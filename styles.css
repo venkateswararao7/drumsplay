@@ -91,6 +91,7 @@ h1 {
   }
   .set{
     margin: 10% auto;
+    display: inline-block;
   }
   .drum {
     text-align: center;
