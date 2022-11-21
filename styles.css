@@ -51,6 +51,7 @@ h1 {
 
 .set {
   margin: 10% auto;
+  justify-content: flex-start;
 }
 
 .game-over {
